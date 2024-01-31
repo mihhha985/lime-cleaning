@@ -1,0 +1,121 @@
+.cleaning-complect__controls{
+	display: flex;
+	margin-top: 3.75rem;
+}
+
+.cleaning-complect__controls > .btn{
+	font-size: 1.1rem;
+	font-weight: 600;
+	letter-spacing: 2px;
+	padding-bottom: 20px;
+	cursor: pointer;
+	flex-grow: 1;
+	border-bottom: 2px solid #414a54;
+	text-align: center;
+}
+
+.cleaning-complect__controls > .btn:first-child{
+	text-align: left!important;
+	padding-left: 10px;
+}
+
+.cleaning-complect__controls > .btn.active{
+	border-bottom: 2px solid #a1cb00;
+}
+
+.cleaning-complect__content{
+	margin-top: 3.75rem;
+}
+
+.cleaning-complect__image{
+	width: 600px;
+}
+
+.cleaning-complect__item{
+	display: flex;
+	column-gap: 20px;
+}
+
+.cleaning-complect__item  ul{
+	display: flex;
+	flex-direction: column;
+	row-gap: 20px;
+}
+
+.cleaning-complect__item li{
+	font-size: 1rem;
+}
+
+.cleaning-complect__item .point-box{
+	float: left;
+	margin-right: 5px;
+	padding-bottom: 20px;
+}
+
+@media screen and (max-width: 1320px){
+
+	.cleaning-complect__controls > .btn{
+		font-size: 1rem;
+	}
+
+	.cleaning-complect__item li{
+		font-size: .9rem;
+	}
+
+	.cleaning-complect__image{
+		width: 540px;
+	}
+}
+
+@media screen and (max-width: 1024px){
+	.cleaning-complect__item{
+		display: flex;
+		flex-direction: column;
+		gap: 20px;
+	}
+
+	.cleaning-complect__controls > .btn{
+		font-size: .8rem;
+	}
+}
+
+@media screen and (max-width: 768px){
+
+	.cleaning-complect__controls {
+    display: flex;
+		flex-direction: column;
+		row-gap: 10px;
+    margin-top: 2.75rem;
+	}
+
+	.cleaning-complect__controls > .btn{
+		font-size: 1.1rem;
+		font-weight: 600;
+		letter-spacing: 2px;
+		padding: 10px 0;
+		cursor: pointer;
+		flex-grow: 1;
+		border: 2px solid #414a54;
+		text-align: center;
+	}
+
+	.cleaning-complect__controls > .btn.active{
+		border: none;
+		background: #a1cb00;
+		color: #fff;
+	}
+	
+	
+	.cleaning-complect__controls > .btn:first-child{
+		text-align: center!important;
+		padding-left: 0;
+	}
+
+	.cleaning-complect__content {
+    margin-top: 2.75rem;
+	}
+
+	.cleaning-complect__image{
+		width: 100%;
+	}
+}

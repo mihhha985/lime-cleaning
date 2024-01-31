@@ -1,0 +1,26 @@
+.loading-box{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.loading-box > .circle{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	border-top:2px solid #a1cb00;
+	border-left:2px solid #a1cb00;
+	border-right: 2px solid #a1cb00;
+	animation: rotate 0.8s linear infinite;
+}
+
+@keyframes rotate {
+	0%{
+		rotate: 0;
+	}
+	100%{
+		rotate: 360deg;
+	}
+}

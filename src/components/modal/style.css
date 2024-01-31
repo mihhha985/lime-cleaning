@@ -1,0 +1,84 @@
+.modal{
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100vh;
+	background: rgba(0,0,0,.8);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	z-index: 10;
+}
+
+.modal-content__box{
+	background: #fff;
+	padding: 1.5rem;
+	border-radius: 5px;
+	width: 380px;
+	height: 320px;
+	overflow-y: auto;
+}
+
+.modal-close{
+	position: absolute;
+	right: 1.5rem;
+	top: 1.5rem;
+	font-size: 1.5rem;
+	color: #d1e1dc;
+	cursor: pointer;
+}
+
+.modal-content__order{
+	display: flex;
+	flex-direction: column;
+	row-gap: 10px;
+	height: 100%;
+}
+
+.modal-content__order > h4{
+	font-size: 1.6rem;
+	margin-bottom: 20px;
+}
+
+.modal-btn{
+	width: 240px;
+	height: 40px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border: 2px solid #a1cb00;
+	background: #a1cb00;
+	color: #fff;
+	font-size: 1.1rem;
+	letter-spacing: 2px;
+	font-weight: 500;
+	border-radius: 8px;
+	cursor: pointer;
+	transition: all 0.3s ease;
+	margin-top: auto;
+}
+
+.modal-btn:hover{
+	background: #fff;
+	color:#a1cb00;
+}
+
+.modal-content__info{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	row-gap: 20px;
+	text-align: center;
+}
+
+.modal-content__info > h4{
+	font-size: 1.8rem;
+}
+
+.modal-content__info > p{
+	font-size: 1.4rem;
+}
